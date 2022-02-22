@@ -33,6 +33,12 @@ nav ol li a{
     margin-right: auto;
     width: 50%;
 }
+/* Viewports between 320px and 480px wide */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .card {
+      background: #bada55;
+    }
+  }
 
 iframe{
     display: block;

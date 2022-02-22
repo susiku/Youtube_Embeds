@@ -1,0 +1,42 @@
+h1{
+    color: rgb(53, 189, 11);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    color: goldenrod;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ol{
+}
+nav ol li{
+list-style-type: none;
+display: inline-block;
+}
+nav ol li a{
+    text-decoration: none;
+    padding: 30px;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
